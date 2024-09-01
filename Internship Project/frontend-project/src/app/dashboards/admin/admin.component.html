@@ -1,0 +1,24 @@
+<p-toast></p-toast>
+
+<div class="flex flex-column px-7 py-5 gap-4" style="border-radius: 12px; background-image: radial-gradient(circle at left top, white, white); max-width: 400px; margin: auto;">
+  <div class="relative flex justify-center" style="top: -20px;">
+    <img src="/assets/mergen-web-site-logo.png" height="30" width="100" class="logo mx-auto"/>
+  </div>
+
+  <div class="inline-flex flex-column gap-2">
+    <label for="username" class="text-primary-0 font-semibold">Kullanıcı Adı:</label>
+    <input pInputText id="username" class="bg-white bg-opacity-90 border border-black-alpha-30 p-3 text-primary-0" [(ngModel)]="request.username"/>
+  </div>
+
+  <div class="inline-flex flex-column gap-2 relative">
+    <label for="password" class="text-primary-0 font-semibold">Şifre:</label>
+    <input pInputText id="password" class="bg-white bg-opacity-90 border border-black-alpha-30 p-3 text-primary-0"
+           [type]="showPassword ? 'text' : 'password'" [(ngModel)]="request.password"/>
+    <i class="pi" [ngClass]="showPassword ? 'pi-eye-slash' : 'pi-eye'"
+       (click)="togglePasswordVisibility()" style="position: absolute; top: 57%; right: 10px; cursor: pointer;"></i>
+  </div>
+
+  <div class="flex align-items-center gap-2">
+    <p-button label="Giriş" (click)="kayit()" [text]="true" styleClass="p-3 w-full text-primary-50 hover:bg-blue-700 bg-primary-800" class="w-full"/>
+  </div>
+</div>
