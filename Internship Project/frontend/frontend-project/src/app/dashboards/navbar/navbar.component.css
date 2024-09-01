@@ -1,0 +1,12 @@
+.img2{
+  width:100px;
+  height:30px;
+}
+
+::ng-deep .p-menubar .p-menuitem-link {
+  color: black; /* Yazı rengini istediğiniz renge değiştirin */
+  font-size: 12px; /* Yazı boyutunu ayarlar */
+  font-family: Arial, sans-serif;
+  font-weight:bold;
+}
+

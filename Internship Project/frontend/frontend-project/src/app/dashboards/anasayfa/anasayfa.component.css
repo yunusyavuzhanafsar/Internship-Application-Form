@@ -1,0 +1,23 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  height: 100vh; /* Viewport yüksekliğine göre ayarlama */
+}
+
+.col-3 {
+  flex: 1;
+
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.taraf{
+  background-color: steelblue;
+}
