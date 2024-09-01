@@ -6,6 +6,8 @@ Kendi Görevim Olan Tablo Sayfası:
 
 <hr>
 
+Staj Başvuru Formunu Gönderen Kullanıcının Bilgi Butonuna Bastığı Zaman Database den Gelen Kullanıcının Ek Bilgilerini Gösteren Bildirim Tablosu
+
 ![kullanıcı bilgileri](https://github.com/user-attachments/assets/7d0032f7-49ab-4a66-adcf-83ad7b1eb7c4)
 
 
