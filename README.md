@@ -13,8 +13,7 @@ Kendi Görevim Olan Tablo Sayfası:
 
 
 
-
-
+Projenin İlgili Olduğu Diğer Sayfalar 
 
 Nagivation Bar:
 
