@@ -13,6 +13,8 @@ Kendi Görevim Olan Tablo Sayfası:
 
 
 
+
+
 Projenin İlgili Olduğu Diğer Sayfalar 
 
 Nagivation Bar:
@@ -44,6 +46,12 @@ Form Sayfası:
 ![form5](https://github.com/user-attachments/assets/fb2e9e77-2a1e-4c27-a150-7ca822219f76)
 <hr>
 
+Admin Giriş Sayfası:
+
+![Ekran görüntüsü 2024-09-01 171545](https://github.com/user-attachments/assets/c7f07d24-3a0a-41a5-b8ad-cdcf3c40a0d9)
+
+
+<hr>
 
 Filtreleme Sayfası:
 
